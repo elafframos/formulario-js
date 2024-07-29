@@ -13,12 +13,19 @@
 
     <section>
         <div>
-            Nome: <input type="text" name="nome" id="nome"> <br>
+            <div id="pre"><strong>Preencha as informações abaixo<br><br></strong></div>
+            Nome: <input type="text" name="nome" id="nome"> <br><br>
             Ano de Nascimento: <input type="number" name="data" id="data"> <br><!-- Corpo do site -->
+            <p>Sexo:
+                <input type="radio" name="radsex" id="nasc" checked> <!-- Nome e id para ser chamado-->
+                <label for="nasc">Masculino</label> <!-- Nome da alternativa -->
+                <input type="radio" name="radsex" id="fem"> <!-- Nome e id para ser chamado -->
+                <label for="radio">Feminino</label> <!-- Nome da alternativa -->
+            </p>
             <input type="button" value="Confirmar" id="botão" onclick="formulario()">
         </div>
         <div id="res">
-             <!-- Corpo do site -->
+            <br> <!-- Corpo do site -->
         </div>
     </section>
     <footer>
