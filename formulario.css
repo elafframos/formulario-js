@@ -1,0 +1,29 @@
+body {
+    background: rgb(82, 134, 230); /*Cor das página */
+    font: normal 20pt arial; /*Letra do site */
+
+}
+
+header {
+    color: white; /*Cor do título */
+    text-align: center; /*Local do título */
+}
+
+div#pre {
+    width: 500px;
+}
+
+section {
+    background: white; /*Cor da borda */
+    border-radius: 10px;padding: 15px; /*Formato da borda */
+    padding: 15px; /*Tamanho da borda */
+    width: 500px; /*Largura da borda */
+    margin: auto; /*Local da margem */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /*Sombra embaixo da margem */
+}
+
+footer {
+    color: white; /*Cor do meu nome */
+    text-align: center; /*Local do meu nome */
+    font-style: italic; /*Estilo da fonte */
+}
