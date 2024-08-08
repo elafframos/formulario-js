@@ -17,12 +17,14 @@ function formulario() {
         nascimento.focus()
     }
     else if(fsex[0].checked) {
+        
         let nome = String(nome1.value)
         let idade = ano - nascimento.value
         res.innerHTML += `Nome: ${nome}<br>`
         res.innerHTML += `Sexo: Masculino<br>`
         res.innerHTML += `Idade: ${idade} anos`
     } else if (fsex[1].checked) {
+        
         let nome = String(nome1.value)
         let idade = ano - nascimento.value
         res.innerHTML += `Nome: ${nome}<br>`
